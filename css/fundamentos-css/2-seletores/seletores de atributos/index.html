@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores de Atributos</title>
+    <style>
+        /*
+        SELETORES: definem em quais elementos nós vamos aplicar o CSS
+        1. Seletor de Tag/Tipo
+        2. Seletor de Id
+        3. Seletor de Classes
+        4. Seletor universal
+        5. Seletor de atributos
+        */
+        [title="Netflix"] {
+            color: red;
+        }
+        [title="Spotify"] {
+            color: green;
+        }
+        [title="Prime Video"] {
+            color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <a title="Netflix" href="https://www.netflix.com">
+                    Netflix
+                </a>
+            </li>
+            <li>
+                <a title="Prime Video" href="https://www.primevideo.com">
+                    Prime Video
+                </a>
+            </li>
+            <li>
+                <a title="Spotify" href="https://www.spotify.com">
+                    Spotify
+                </a>
+            </li>
+            <li>
+                <a>
+                Disney Plus
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
