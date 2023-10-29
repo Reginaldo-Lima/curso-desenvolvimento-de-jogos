@@ -1,0 +1,40 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    background-image: url('../images/chihiro.jpg');
+    background-size: 130px;
+    background-repeat: no-repeat;
+}
+
+#top {
+    background-position: top;
+}
+
+#bottom {
+    background-position: bottom;
+}
+
+#left {
+    background-position: left;
+}
+
+#right {
+    background-position: right;
+}
+
+#center {
+    background-position: center;
+}
+
+#eixos {
+    background-position: left top;
+}
+
+#relativo {
+    background-position: left 50px top 30px;
+}

@@ -1,0 +1,26 @@
+.div {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+#exemplo {
+    background-image: url('../images/garota-lua.jpg');
+}
+
+#linear {
+    background-image: linear-gradient(red, violet, purple);
+}
+
+#radial {
+    background-image: radial-gradient(red, violet, purple);
+}
+
+#repeating {
+    background-image: repeating-linear-gradient(to top, palevioletred 0 20px, lightpink 20px 40px);
+}
+
+#camadas {
+    background-image:url('../images/Daco_4480588.png'), url('../images/chihiro.jpg');
+    background-size: 300px 300px;
+}

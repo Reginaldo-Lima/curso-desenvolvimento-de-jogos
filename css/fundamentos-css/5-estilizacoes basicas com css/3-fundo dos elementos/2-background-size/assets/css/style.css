@@ -1,0 +1,30 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/chihiro.jpg);
+}
+
+#cover {
+    background-size: cover;
+}
+
+#contain {
+    background-size: contain;
+}
+
+#tamanho {
+    background-size: 100%;
+}
+
+#exemplo-x-y {
+    background-size: 300px 300px;
+}
+
+#exemplo-camadas {
+    background-image: url('../images/Daco_4480588.png'), url('../images/garota-lua.jpg');
+    background-size: 300px 300px, contain;
+}
